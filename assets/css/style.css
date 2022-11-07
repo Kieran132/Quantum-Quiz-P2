@@ -1,2 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiko&family=Azeret+Mono:wght@300&display=swap');
 
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../images/galaxy2.jpg');
+    background-size: 68%;
+    font-family: 'Amiko', sans-serif;
+}
