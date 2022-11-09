@@ -6,9 +6,11 @@ body{
     background: url('../images/galaxy2.jpg');
     background-size: 68%;
     font-family: 'Amiko', sans-serif;
+    box-sizing: border-box;
 }
 
-.start_btn{
+.start_btn,
+.info{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,8 +37,10 @@ body{
 /*Information box styling*/
 
 .info{
-    width: 500px;
     background: #fff;
     pointer-events: none;
     border: 1px solid rgb(166, 85, 227);
+    width: 450px;
+    transform: translate(-50%, -50%) scale(0.9);
+   
 }
