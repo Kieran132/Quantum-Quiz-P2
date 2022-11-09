@@ -31,3 +31,12 @@ body{
     transition: transform 200ms;
     transform: scale(1.2);
 }
+
+/*Information box styling*/
+
+.info{
+    width: 500px;
+    background: #fff;
+    pointer-events: none;
+    border: 1px solid rgb(166, 85, 227);
+}
