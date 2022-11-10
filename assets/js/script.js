@@ -27,7 +27,8 @@ next_btn.onclick = () =>{
     if(que_count < questions.length - 1){
         que_count++;
          que_number++;
-        showQuestions(que_count);
+        showQuestions(que_count)
+        questionCounter(que_number);
     } else {
         console.log("Questions ended");
     }
@@ -61,20 +62,20 @@ function showQuestions(index){
 function optionSelected(answer){
     let userAnswer = answer.textContent;
     let correctAnswer = questions[que_count].answer;
-    let allOptions = option_area.children.length
+    let allOptions = option_area.children.length;
     if(userAnswer == correctAnswer){
         userScore += 1;
-        console.log(userScore)
-        answer.classList.add("correct")
-        console.log("correct")
+        console.log(userScore);
+        answer.classList.add("correct");
+        console.log("correct");
     } else{
-        answer.classList.add("incorrect")
-        console.log("incorrect")
+        answer.classList.add("incorrect");
+        console.log("incorrect");
 
         //Shows the user the correct answer if they choose incorrectly
         for(let i = 0; i < allOptions; i++){
             if(option_area.children[i].textContent == correctAnswer){
-                option_area.children[i].setAttribute("class", "option correct")
+                option_area.children[i].setAttribute("class", "option correct");
             }
         }
     }
@@ -82,6 +83,12 @@ function optionSelected(answer){
     //Disable all options once user has selected answer
 
     for(let i = 0; i < allOptions; i++){
-        option_area.children[i].classList.add("disabled")
+        option_area.children[i].classList.add("disabled");
     }   
+}
+
+function questionCounter(index){
+    const bottom_ques_count = quiz.querySelector(".question_count");
+    let totalQuesCount =  '<span>'+ index + '<p>of</p>' + questions.length + '<p>Questions</p></span>'
+    bottom_ques_count.innerHTML = totalQuesCount;
 }
