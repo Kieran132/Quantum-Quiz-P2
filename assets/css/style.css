@@ -19,8 +19,19 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.start_btn.unactive{
+    opacity: 0;
+}
+
+.info.activeInfo,
+.quiz.activeQuiz{
+    z-index: 5;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+
 .start_btn button{
-    display: none;
     font-size: 2.4rem;
     width: 15rem;
     text-align: center;
@@ -28,7 +39,8 @@ body{
     color: white;
     background: linear-gradient(90deg, rgb(147, 73, 232) 0%, rgb(166, 85, 227) 100%);
     border-radius: 5px;
-    cursor: pointer;;
+    cursor: pointer;
+    outline: none;
 }
 
 .start_btn button:hover{
@@ -39,12 +51,12 @@ body{
 /*Information box styling*/
 
 .info{
-    display: none;
+    opacity: 0;
     background: #fff;
-    pointer-events: none;
     border: 1px solid rgb(166, 85, 227);
     width: 450px;
     transform: translate(-50%, -50%) scale(0.9);
+    pointer-events: none;
 }
 
 .info .rules{
@@ -89,9 +101,10 @@ body{
 /* Quiz box Styling */
 
 .quiz{
-    display: none;
+    opacity: 0;
     width: 75rem;
     transform: translate(-50%, -50%) scale(0.9);
+    pointer-events: none;
 }
 
 .quiz header{
@@ -208,10 +221,12 @@ body{
 /* Results Box Styling */
 
 .results{
+    opacity: 0;
     width: 450px;
     height: 200px;
     transform: translate(-50%, -50%) scale(0.9);
     color: rgb(166, 85, 227);
+    pointer-events: none;
 }
 
 .results .end_text{
