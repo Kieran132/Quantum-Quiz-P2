@@ -9,6 +9,9 @@ const option_area = document.querySelector(".option_area")
 const next_btn = quiz.querySelector(".next_btn")
 const results = document.querySelector(".results")
 
+const quit = results.querySelector(".buttons_end .stop")
+
+
 //When start button is clicked
 start_btn.onclick = () => {
     info.classList.add("activeInfo");
@@ -36,12 +39,14 @@ next_btn.onclick = () =>{
     }
 }
 
-// When replay button is clicked
-
+// When exit button is clicked
+quit.onclick = () =>{
+    window.location.reload();
+}
 
 let que_count = 0;
 let que_number = 1;
-let userScore = 0
+let userScore = 0;
 
 //Getting questions and options from array
 function showQuestions(index){
