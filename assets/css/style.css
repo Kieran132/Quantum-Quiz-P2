@@ -10,7 +10,8 @@ body{
 }
 
 .start_btn,
-.info{
+.info,
+.quiz{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,6 +19,7 @@ body{
 }
 
 .start_btn button{
+    display: none;
     font-size: 2.4rem;
     width: 15rem;
     text-align: center;
@@ -37,6 +39,7 @@ body{
 /*Information box styling*/
 
 .info{
+    display: none;
     background: #fff;
     pointer-events: none;
     border: 1px solid rgb(166, 85, 227);
@@ -81,4 +84,14 @@ body{
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+}
+
+/* Quiz box Styling */
+
+.quiz{
+    background: #fff;
+    width: 40rem;
+    border: 1px solid rgb(166, 85, 227);
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9)
 }
