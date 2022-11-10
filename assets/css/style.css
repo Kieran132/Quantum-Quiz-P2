@@ -99,6 +99,10 @@ body{
     cursor: pointer;
 }
 
+.info .buttons button:hover{
+    box-shadow: 0 0.6rem 1.8rem 0 rgb(166, 85, 227);
+}
+
 /* Quiz box Styling */
 
 .quiz{
