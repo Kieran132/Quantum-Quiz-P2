@@ -42,5 +42,43 @@ body{
     border: 1px solid rgb(166, 85, 227);
     width: 450px;
     transform: translate(-50%, -50%) scale(0.9);
-   
+}
+
+.info .rules{
+    height: 3.2rem;
+    border-bottom: 1px solid rgb(166, 85, 227);
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    padding-left: 1.5rem;
+}
+
+.info .rules_list{
+    padding: 1.1rem 2rem;
+}
+
+.info .rules_list .info_rules{
+    margin: 0.9rem 0.5rem;
+    font-size: 1.5rem;
+}
+
+.info .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid rgb(166, 85, 227);
+    height: 3.2rem;
+}
+
+.info .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: rgb(166, 85, 227);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
 }
