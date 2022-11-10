@@ -121,6 +121,7 @@ body{
     border-radius: 5px;
     padding: 0 8px;
     float: right;
+    
 }
 
 .quiz header .timer .time_text{
@@ -147,10 +148,6 @@ body{
     align-items: center;
     font-weight: 400;
     color: rgb(166, 85, 227);
-}
-
-.quiz section .question_area span{
-    padding-left: 150px;
 }
 
 .quiz section .option_area{
@@ -182,13 +179,12 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
-    border-top: 2px solid rgb(166, 85, 227);
     color: rgb(166, 85, 227);
 }
 
 .quiz footer span{
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .quiz footer span p{
@@ -197,13 +193,13 @@ body{
 
 .quiz footer .next_btn{
     margin: 0 5px;
-    height: 40px;
-    width: 100px;
+    height: 60px;
+    width: 130px;
     outline: none;
     border: 1px solid transparent;
     border-radius: 5px;
     color: rgb(166, 85, 227);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     cursor: pointer;
 }
