@@ -6,6 +6,7 @@ const continue_btn = info.querySelector(".buttons .continue");
 const quiz = document.querySelector(".quiz");
 
 const option_area = document.querySelector(".option_area")
+const next_btn = quiz.querySelector(".next_btn")
 
 //When start button is clicked
 start_btn.onclick = () => {
@@ -22,6 +23,15 @@ continue_btn.onclick = () => {
 }
 
 //When next button is clicked
+next_btn.onclick = () =>{
+    if(que_count < questions.length - 1){
+        que_count++;
+         que_number++;
+        showQuestions(que_count);
+    } else {
+        console.log("Questions ended");
+    }
+}
 
 // When replay button is clicked
 
