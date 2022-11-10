@@ -27,14 +27,13 @@ body{
     color: white;
     background: linear-gradient(90deg, rgb(147, 73, 232) 0%, rgb(166, 85, 227) 100%);
     border-radius: 5px;
+    cursor: pointer;;
 }
 
 .start_btn button:hover{
-    cursor: pointer;
     box-shadow: 0 0.6rem 1.8rem 0 rgb(166, 85, 227);
-    transition: transform 200ms;
-    transform: scale(1.2);
 }
+
 
 /*Information box styling*/
 
@@ -89,55 +88,57 @@ body{
 /* Quiz box Styling */
 
 .quiz{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 70rem;
-    margin: 0 auto;
-}
-
-.quiz section{
-    padding: 25px 30px 20px 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.quiz section .question_area{
-    font-size: 5.4rem;
-    color: rgb(166, 85, 227);
-    margin-bottom: 5rem;
-}
-
-.quiz section .option_area{
-    margin-bottom: 2rem;
-    border-radius: 4px;
-    font-size: 1.3rem;
+    background: #fff;
     width: 70rem;
-    color: white;
-    display: block;
+    border: 4px solid;
+    border-color: blueviolet;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
-.quiz section .option{
-    background: rgb(221, 189, 246);
-    border: 1px solid rgb(165, 105, 222);
-    padding: 8px 15px;
-    margin-bottom: 15px;
-    font-size: 17px;
+.quiz header{
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    position: relative;
+    display: flex;
+    padding: 0 20px;
+    height: 60px;
+    border-radius:5px 5px 0 0;
+    border-bottom: 1px solid rgb(166, 85, 227);
+}
+
+.quiz header .heading{
+    font-size: 4rem;
+    font-weight: 400;
+    color: rgb(166, 85, 227);
+}
+
+.quiz header .timer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    cursor: pointer;
+    width: 145px;
+    height: 50px;
+    background: blueviolet;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 8px;
+    float: right;
 }
 
-.quiz section .option:hover{
-    cursor: pointer;
-    box-shadow: 0 0.6rem 1.8rem 0 rgb(166, 85, 227);
-    transition: transform 200ms;
-    transform: scale(1.1);
+.quiz header .timer .time_text{
+    font-size: 1.3rem;
 }
 
-
-
+.quiz header .timer .time{
+    font-size: 0.9rem;
+    color: #fff;
+    height: 20px;
+    width: 45px;
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    padding-top: 5px;
+}
