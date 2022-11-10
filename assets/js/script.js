@@ -18,11 +18,17 @@ continue_btn.onclick = () => {
     info.classList.remove("activeInfo")
     quiz.classList.add("activeQuiz")
     showQuestions(0);
+    questionCounter(1);
 }
 
 //When next button is clicked
 
 // When replay button is clicked
+
+
+let que_count = 0;
+let que_number = 1;
+let userScore = 0
 
 //Getting questions and options from array
 function showQuestions(index){
@@ -38,4 +44,34 @@ function showQuestions(index){
     for (let i = 0; i < option.length; i++){
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
+}
+
+//Function for when user chooses and answer
+
+function optionSelected(answer){
+    let userAnswer = answer.textContent;
+    let correctAnswer = questions[que_count].answer;
+    let allOptions = option_area.children.length
+    if(userAnswer == correctAnswer){
+        userScore += 1;
+        console.log(userScore)
+        answer.classList.add("correct")
+        console.log("correct")
+    } else{
+        answer.classList.add("incorrect")
+        console.log("incorrect")
+
+        //Shows the user the correct answer if they choose incorrectly
+        for(let i = 0; i < allOptions; i++){
+            if(option_area.children[i].textContent == correctAnswer){
+                option_area.children[i].setAttribute("class", "option correct")
+            }
+        }
+    }
+
+    //Disable all options once user has selected answer
+
+    for(let i = 0; i < allOptions; i++){
+        option_area.children[i].classList.add("disabled")
+    }   
 }
