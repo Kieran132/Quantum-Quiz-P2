@@ -94,13 +94,15 @@ body{
 
 .quiz header{
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: relative;
     display: flex;
     padding: 0 20px;
     height: 80px;
     border-radius:5px 5px 0 0;
     border-bottom: 2px solid rgb(166, 85, 227);
+    align-content: space-between;
+    flex-direction: row;
 }
 
 .quiz header .heading{
@@ -115,10 +117,7 @@ body{
     justify-content: space-between;
     width: 145px;
     height: 55px;
-    background: blueviolet;
-    color: #fff;
-    border: 1px solid black;
-    border-radius: 5px;
+    color: rgb(166, 85, 227);
     padding: 0 8px;
     float: right;
     
@@ -129,14 +128,10 @@ body{
 }
 
 .quiz header .timer .time{
-    font-size: 0.9rem;
-    color: #fff;
-    height: 20px;
-    width: 45px;
+    font-size: 1.3rem;
+    color: rgb(166, 85, 227);
     text-align: center;
-    border: 1px solid black;
     position: relative;
-    padding-top: 5px;
 }
 
 .quiz section{
