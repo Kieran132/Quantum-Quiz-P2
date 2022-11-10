@@ -211,6 +211,7 @@ body{
 .quiz footer span{
     display: flex;
     font-size: 1.5rem;
+    align-items: center;
 }
 
 .quiz footer span p{
