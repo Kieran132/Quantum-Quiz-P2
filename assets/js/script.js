@@ -7,6 +7,7 @@ const quiz = document.querySelector(".quiz");
 
 const option_area = document.querySelector(".option_area")
 const next_btn = quiz.querySelector(".next_btn")
+const results = document.querySelector(".results")
 
 //When start button is clicked
 start_btn.onclick = () => {
@@ -31,6 +32,7 @@ next_btn.onclick = () =>{
         questionCounter(que_number);
     } else {
         console.log("Questions ended");
+        showResults();
     }
 }
 
@@ -91,4 +93,13 @@ function questionCounter(index){
     const bottom_ques_count = quiz.querySelector(".question_count");
     let totalQuesCount =  '<span>'+ index + '<p>of</p>' + questions.length + '<p>Questions</p></span>'
     bottom_ques_count.innerHTML = totalQuesCount;
+}
+
+// Results box
+
+function showResults(){
+    start_btn.classList.add("unactive")
+    info.classList.remove("activeInfo")
+    quiz.classList.remove("activeQuiz")
+    results.classList.add("activeResults")
 }

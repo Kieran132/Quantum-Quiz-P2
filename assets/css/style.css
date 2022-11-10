@@ -24,7 +24,8 @@ body{
 }
 
 .info.activeInfo,
-.quiz.activeQuiz{
+.quiz.activeQuiz,
+.results.activeResults{
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
