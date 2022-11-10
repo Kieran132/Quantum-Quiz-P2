@@ -11,7 +11,8 @@ body{
 
 .start_btn,
 .info,
-.quiz{
+.quiz,
+.results{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -88,6 +89,7 @@ body{
 /* Quiz box Styling */
 
 .quiz{
+    display: none;
     width: 75rem;
     transform: translate(-50%, -50%) scale(0.9);
 }
@@ -200,5 +202,57 @@ body{
 }
 
 .quiz footer .next_btn:hover{
+    box-shadow: 0 0.6rem 1.8rem 0 rgb(166, 85, 227);
+}
+
+/* Results Box Styling */
+
+.results{
+    width: 450px;
+    height: 200px;
+    transform: translate(-50%, -50%) scale(0.9);
+    color: rgb(166, 85, 227);
+}
+
+.results .end_text{
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.results .score_text span{
+    display: flex;
+    font-size: 30px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.results .score_text span p{
+    position: relative;
+    padding: 10px;
+}
+
+.results .buttons_end{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 8px;
+}
+
+.buttons_end button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttons_end button:hover{
     box-shadow: 0 0.6rem 1.8rem 0 rgb(166, 85, 227);
 }
