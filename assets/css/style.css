@@ -88,23 +88,19 @@ body{
 /* Quiz box Styling */
 
 .quiz{
-    background: #fff;
     width: 75rem;
-    border: 4px solid;
-    border-color: blueviolet;
     transform: translate(-50%, -50%) scale(0.9);
 }
 
 .quiz header{
     align-items: center;
     justify-content: space-between;
-    background: #fff;
     position: relative;
     display: flex;
     padding: 0 20px;
     height: 80px;
     border-radius:5px 5px 0 0;
-    border-bottom: 1px solid rgb(166, 85, 227);
+    border-bottom: 2px solid rgb(166, 85, 227);
 }
 
 .quiz header .heading{
@@ -118,7 +114,7 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 145px;
-    height: 50px;
+    height: 55px;
     background: blueviolet;
     color: #fff;
     border: 1px solid black;
@@ -150,6 +146,11 @@ body{
     font-size: 2.7rem;
     align-items: center;
     font-weight: 400;
+    color: rgb(166, 85, 227);
+}
+
+.quiz section .question_area span{
+    padding-left: 150px;
 }
 
 .quiz section .option_area{
@@ -172,4 +173,41 @@ body{
     box-shadow: 0 0.6rem 1.8rem 0 rgb(166, 85, 227);
     transition: transform 200ms;
     transform: scale(1.05);
+}
+
+.quiz footer{
+    height: 50px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-top: 2px solid rgb(166, 85, 227);
+    color: rgb(166, 85, 227);
+}
+
+.quiz footer span{
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.quiz footer span p{
+    padding: 0 5px;
+}
+
+.quiz footer .next_btn{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: rgb(166, 85, 227);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.quiz footer .next_btn:hover{
+    box-shadow: 0 0.6rem 1.8rem 0 rgb(166, 85, 227);
 }
