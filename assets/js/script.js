@@ -1,5 +1,6 @@
 // Getting all the required elements
 
+const home_page = document.querySelector(".home_page")
 const start_btn = document.querySelector(".start_btn button");
 const info = document.querySelector(".info");
 const continue_btn = info.querySelector(".buttons .continue");
@@ -11,6 +12,10 @@ const results = document.querySelector(".results")
 
 const quit = results.querySelector(".buttons_end .stop")
 
+let que_count = 0;
+let que_number = 1;
+let userScore = 0;
+
 
 //When start button is clicked
 start_btn.onclick = () => {
@@ -19,7 +24,7 @@ start_btn.onclick = () => {
 
 //When continue button is clicked
 continue_btn.onclick = () => {
-    start_btn.classList.add("unactive")
+    home_page.classList.add("unactive")
     info.classList.remove("activeInfo")
     quiz.classList.add("activeQuiz")
     showQuestions(0);
@@ -44,9 +49,7 @@ quit.onclick = () =>{
     window.location.reload();
 }
 
-let que_count = 0;
-let que_number = 1;
-let userScore = 0;
+
 
 //Getting questions and options from array
 function showQuestions(index){

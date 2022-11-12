@@ -9,7 +9,7 @@ body{
     box-sizing: border-box;
 }
 
-.start_btn,
+.home_page,
 .info,
 .quiz,
 .results{
@@ -19,7 +19,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-.start_btn button.unactive{
+.home_page.unactive{
     opacity: 0;
 }
 
