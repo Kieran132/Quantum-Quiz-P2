@@ -67,4 +67,48 @@ let questions = [
             'Martin Schmidt'
         ]
     },
+    {
+        numb: 7,
+        question: 'The radiant energy of the sun is transmitted in the form of ?',
+        answer: 'Short Waves',
+        options:[
+            'Short Waves',
+            'Long Waves',
+            'Particles',
+            'None of these'
+        ]
+    },
+    {
+        numb: 8,
+        question: '“Sirius”, the brightest star outside of the Solar System, is also called ?',
+        answer: 'Dog Star',
+        options:[
+            'Cat Star',
+            'Dog Star',
+            'Fox Star',
+            'Lion Star'
+        ]
+    },
+    {
+        numb: 9,
+        question: 'The mass of Jupiter is almost',
+        answer: 'One Thousandth of the mass of the Sun',
+        options:[
+            'Tenth of the mass of the Sun',
+            'One Thousandth of the mass of the Sun',
+            'Hundred of the mass of the Sun',
+            'Half of the mass of the Sun'
+        ]
+    },
+    {
+        numb: 10,
+        question: 'The darkest part of the shadow during eclipse is ?',
+        answer: 'Umbra',
+        options:[
+            'Halo',
+            'Umbra',
+            'Penumbra',
+            ' Black Hole'
+        ]
+    },
 ]
