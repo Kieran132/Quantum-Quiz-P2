@@ -20,6 +20,7 @@ let userScore = 0;
 //When start button is clicked
 start_btn.onclick = () => {
     info.classList.add("activeInfo");
+    home_page.classList.add("unactive");
 }
 
 //When continue button is clicked

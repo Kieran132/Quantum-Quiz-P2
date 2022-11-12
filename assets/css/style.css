@@ -32,6 +32,21 @@ body{
     transform: translate(-50%, -50%) scale(1);
 }
 
+/* Home page section of the quiz */
+
+.title{
+    align-items: flex-end;
+    justify-content: space-evenly;
+    position: relative;
+    display: flex;
+    height: 80px;
+    align-content: space-between;
+    flex-direction: row;
+    font-size: 10rem;
+    font-weight: 400;
+    color: rgb(166, 85, 227);
+}
+
 .start_btn button{
     font-size: 2.4rem;
     width: 15rem;
@@ -106,6 +121,8 @@ body{
 /* Quiz box Styling */
 
 .quiz{
+    background: rgba(5, 162, 25, 0.4);
+    height: 550px;
     opacity: 0;
     width: 75rem;
     transform: translate(-50%, -50%) scale(0.9);
@@ -129,29 +146,6 @@ body{
     font-size: 4rem;
     font-weight: 400;
     color: rgb(166, 85, 227);
-}
-
-.quiz header .timer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 145px;
-    height: 55px;
-    color: rgb(166, 85, 227);
-    padding: 0 8px;
-    float: right;
-    
-}
-
-.quiz header .timer .time_text{
-    font-size: 1.3rem;
-}
-
-.quiz header .timer .time{
-    font-size: 1.3rem;
-    color: rgb(166, 85, 227);
-    text-align: center;
-    position: relative;
 }
 
 .quiz section{
@@ -245,17 +239,21 @@ body{
 
 .results{
     opacity: 0;
+    background: rgba(5, 162, 25, 0.4);
     width: 500px;
-    height: 200px;
+    height: 270px;
     transform: translate(-50%, -50%) scale(0.9);
     color: rgb(166, 85, 227);
     pointer-events: none;
 }
 
 .results .end_text{
-    font-size: 45px;
+    font-size: 60px;
     align-items: center;
     justify-content: center;
+    display: flex;
+    border-bottom: 1px solid rgb(166, 85, 227);
+    padding-top: 20px;
 }
 
 .results .score_text span{
