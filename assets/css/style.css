@@ -57,10 +57,24 @@ body{
     border-radius: 5px;
     cursor: pointer;
     outline: none;
+    float: right;
 }
 
 .start_btn button:hover{
     box-shadow: 0 0.6rem 1.8rem 0 rgb(166, 85, 227);
+}
+
+.welcome_text{
+    align-items: flex-end;
+    justify-content: space-evenly;
+    position: relative;
+    display: flex;
+    height: 80px;
+    align-content: space-between;
+    flex-direction: row;
+    font-size: 4rem;
+    font-weight: 400;
+    color: rgb(166, 85, 227)
 }
 
 
@@ -122,7 +136,7 @@ body{
 
 .quiz{
     background: rgba(5, 162, 25, 0.4);
-    height: 550px;
+    height: 590px;
     opacity: 0;
     width: 75rem;
     transform: translate(-50%, -50%) scale(0.9);
@@ -172,6 +186,7 @@ body{
    border: 1px solid rgb(165, 105, 222);
    padding: 10px 15px;
    margin-bottom: 10px;
+   font-size: 25px;
 }
 
 .quiz section .option:hover{
