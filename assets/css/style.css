@@ -45,6 +45,7 @@ body{
     font-size: 10rem;
     font-weight: 400;
     color: rgb(166, 85, 227);
+    margin-top: 150px;
 }
 
 .start_btn button{
@@ -57,7 +58,8 @@ body{
     border-radius: 5px;
     cursor: pointer;
     outline: none;
-    float: right;
+    margin-top: 50px;
+    margin-left: 250px;
 }
 
 .start_btn button:hover{
@@ -75,6 +77,42 @@ body{
     font-size: 4rem;
     font-weight: 400;
     color: rgb(166, 85, 227)
+}
+
+.username{
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    display: flex;
+    height: 80px;
+    align-content: space-between;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgb(166, 85, 227);
+    padding-top: 40px;
+}
+
+.username_inupt{
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    align-content: space-between;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+.submit{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: rgb(166, 85, 227);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 
