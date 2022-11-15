@@ -12,6 +12,9 @@ const results = document.querySelector(".results")
 
 const quit = results.querySelector(".buttons_end .stop")
 
+const username = document.querySelector(".username_inupt")
+const submit = document.querySelector(".submit")
+
 let que_count = 0;
 let que_number = 1;
 let userScore = 0;
@@ -122,4 +125,8 @@ function showResults(){
         let scoreMsg = '<span>Back To School You Go <p>' + userScore + '</p>out of<p>' + questions.length + '</p></span>'
         score_info.innerHTML = scoreMsg
     }
+}
+
+function user_name (){
+    addEventListener.onclick
 }
