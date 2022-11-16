@@ -12,7 +12,7 @@ const results = document.querySelector(".results")
 
 const quit = results.querySelector(".buttons_end .stop")
 
-const username = document.querySelector(".username_inupt")
+const username = document.querySelector(".username_inupt").value;
 const submit = document.querySelector(".submit")
 
 let que_count = 0;
@@ -127,6 +127,6 @@ function showResults(){
     }
 }
 
-function user_name (){
-    addEventListener.onclick
+submit.onclick = () => {
+    localStorage.setItem('name', username)
 }

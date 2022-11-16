@@ -345,3 +345,122 @@ body{
 .buttons_end button:hover{
     box-shadow: 0 0.6rem 1.8rem 0 rgb(166, 85, 227);
 }
+
+@media screen and (max-width: 1200px) {
+    .quiz{
+        width: 50rem;
+        height: 630px;
+    }
+
+    .results{
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .title{
+        font-size: 5rem;
+        margin-bottom: 80px;
+        margin-top: 0;
+    }
+
+    .welcome_text{
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .start_btn button{
+        margin-left: 50px;
+    }
+
+    .quiz{
+        width: 25rem;
+        height: 500px;
+    }
+
+    .quiz header .heading{
+        font-size: 2.5rem;
+    }
+
+    .quiz section .question_area{
+        font-size: 1.5rem;
+    }
+
+    .quiz section .option{
+        font-size: 15px;
+    }
+
+    .quiz footer .next_btn{
+        font-size: 16px;
+        height: 40px;
+        width: 90px;
+        margin-right: 20px;
+    }
+
+    .results{
+        width: 450px;
+        margin-right: 100px;
+    }
+
+    .results .score_text span{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .title{
+        font-size: 4.2rem;
+        margin-top: 0;
+    }
+
+    .welcome_text{
+        font-size: 2.3rem;
+    }
+
+    .info{
+        width: 320px;
+        justify-content: center;
+        left: 46%;
+    }
+
+    .info .rules{
+        font-size: 1.5rem;
+    }
+
+    .quiz{
+        width: 22rem;
+        height: 550px;
+        left: 46%;
+    }
+
+    .quiz header .heading{
+        font-size: 2rem;
+    }
+
+    .quiz section .question_area{
+        font-size: 1.5rem;
+    }
+
+    .quiz section .option{
+        font-size: 15px;
+    }
+
+    .quiz footer .next_btn{
+        font-size: 16px;
+        height: 40px;
+        width: 80px;
+        margin-right: 200px;
+    }
+
+    .results{
+        width: 340px;
+        left: 46%;
+        height: 350px;
+    }
+
+    .results .score_text span{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
