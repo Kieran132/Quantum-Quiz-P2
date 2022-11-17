@@ -45,7 +45,7 @@ body{
     font-size: 10rem;
     font-weight: 400;
     color: rgb(166, 85, 227);
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .start_btn button{
@@ -430,7 +430,7 @@ body{
     .quiz{
         width: 22rem;
         height: 550px;
-        left: 46%;
+        left: 50%;
     }
 
     .quiz header .heading{
@@ -454,7 +454,7 @@ body{
 
     .results{
         width: 340px;
-        left: 46%;
+        left: 50%;
         height: 350px;
     }
 
