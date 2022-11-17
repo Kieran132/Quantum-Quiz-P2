@@ -183,7 +183,7 @@ body{
 
 .quiz{
     background: rgba(5, 162, 25, 0.4);
-    height: 590px;
+    height: 610px;
     opacity: 0;
     width: 75rem;
     transform: translate(-50%, -50%) scale(0.9);
@@ -209,22 +209,22 @@ body{
     color: rgb(166, 85, 227);
 }
 
-.quiz section{
+.quiz div{
     padding: 20px 30px 25px 30px;
 }
 
-.quiz section .question_area{
+.quiz div .question_area{
     font-size: 2.7rem;
     align-items: center;
     font-weight: 400;
     color: rgb(166, 85, 227);
 }
 
-.quiz section .option_area{
+.quiz div .option_area{
     padding: 20px 0;
 }
 
-.quiz section .option{
+.quiz div .option{
    cursor: pointer;
    display: flex;
    justify-content: space-between;
@@ -396,7 +396,7 @@ body{
         font-size: 2.5rem;
     }
 
-    .quiz section .question_area{
+    .quiz div .question_area{
         font-size: 1.5rem;
     }
 

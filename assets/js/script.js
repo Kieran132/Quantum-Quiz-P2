@@ -60,10 +60,7 @@ quit.onclick = () =>{
 function showQuestions(index){
     const question_area = document.querySelector(".question_area");
     let que_tag = '<span>' + questions[index].numb + '.' + questions[index].question + '</span>';
-    let option_tag = '<div class="option">'+ questions[index].options[0] + '<span></span></div>'
-                    + '<div class="option">' + questions[index].options[1] + '<span></span></div>'
-                    + '<div class="option">' + questions[index].options[2] + '<span></span></div>'
-                    + '<div class="option">' + questions[index].options[3] + '<span></span></div>';
+    let option_tag = '<div class="option">'+ questions[index].options[0] + '<span></span></div>' + '<div class="option">' + questions[index].options[1] + '<span></span></div>' + '<div class="option">' + questions[index].options[2] + '<span></span></div>' + '<div class="option">' + questions[index].options[3] + '<span></span></div>';
     question_area.innerHTML = que_tag;
     option_area.innerHTML = option_tag;
     const option = option_area.querySelectorAll(".option");
