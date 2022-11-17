@@ -100,9 +100,12 @@ body{
     align-content: space-between;
     flex-direction: row;
     padding-left: 50px;
+    border: 1px solid rgb(166, 85, 227);
+    height: 30px;
+    font-size: 1.5rem;
 }
 
-.submit{
+ .username .submit{
     margin: 0 5px;
     height: 40px;
     width: 100px;
@@ -113,6 +116,11 @@ body{
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    margin-top: 10px;
+}
+
+.username .submit:hover{
+    box-shadow: 0 0.6rem 1.8rem 0 rgb(166, 85, 227);
 }
 
 
