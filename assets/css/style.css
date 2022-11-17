@@ -293,8 +293,8 @@ body{
 .results{
     opacity: 0;
     background: rgba(5, 162, 25, 0.4);
-    width: 500px;
-    height: 270px;
+    width: 600px;
+    height: 550px;
     transform: translate(-50%, -50%) scale(0.9);
     color: rgb(166, 85, 227);
     pointer-events: none;
@@ -314,6 +314,7 @@ body{
     font-size: 30px;
     margin: 10px 0;
     align-items: center;
+    flex-direction: column;
 }
 
 .results .score_text span p{
