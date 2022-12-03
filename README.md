@@ -22,3 +22,9 @@ https://github.com/Kieran132/Quantum-Quiz-P2
 - Testing
 - Deployment
 - Credits
+
+## Project Goals
+The idea behind this project was to combine a visually appealing quiz with a subject that many would find quite boring and uninteresting in a bid to make the subject more fun to the user. Science and space subjects, many would consider, is not that exciting. However this quiz is a small step to change that.
+
+## Target Audience
+The audience I was aiming for was one on a broad spectrum. I wanted people who find space and science interesting to play the quiz, but also people who were less knowledgeable about the subject to give it a go and test themselves to see how many questions they could get correct.

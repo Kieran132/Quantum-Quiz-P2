@@ -25,6 +25,7 @@ let userScore = 0;
 start_btn.onclick = () => {
     info.classList.add("activeInfo");
     home_page.classList.add("unactive");
+    localStorage.setItem("text", username.value)
 };
 
 //When continue button is clicked
@@ -125,6 +126,4 @@ function showResults(){
     }
 }
 
-submit.onclick = () => {
-    localStorage.setItem("text", username.value);
-};
+
