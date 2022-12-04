@@ -13,7 +13,6 @@ const results = document.querySelector(".results");
 const quit = results.querySelector(".buttons_end .stop");
 
 const username = document.querySelector(".username_inupt");
-const submit = document.querySelector(".submit");
 const storedUsername = localStorage.getItem("text");
 
 let que_count = 0;
@@ -25,7 +24,7 @@ let userScore = 0;
 start_btn.onclick = () => {
     info.classList.add("activeInfo");
     home_page.classList.add("unactive");
-    localStorage.setItem("text", username.value)
+    localStorage.setItem("text", username.value);
 };
 
 //When continue button is clicked
