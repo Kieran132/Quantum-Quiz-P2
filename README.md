@@ -50,3 +50,45 @@ The quiz is situated within a semi-transparent backgroud that adds contrast to t
 Once the user has completed the quiz, the results box comes up offering the total number of questions you have right, a quirky message depending the user was in the correct score range and also the users name in which they submitted at the begging of the quiz. The end button on the results page reloads the page back to the start.
 
 <img src="assets/README images/Results.png">
+
+## Technologies Used
+- HTML5 - basic coding to build a website
+- CSS3 - used for styling the website
+- Javascript - used to carry out the functional side of the website
+- Gitpod - used to create the website
+- Github - used to store repository of website and deploy website
+- Chrome Dev Tools - used to view and experiment with styles
+- Google Fonts - used to find the fonts for the website
+- https://techsini.com/multi-mockup/index.php - used to show responsiveness on multiple devices
+- Pexels - provided the background image seen throughout the website
+
+## Testing and Bugs
+Click [Here] (TESTING.md) to see further information on testng and bugs
+
+## Deployment
+
+### Github Deployment
+The website was delpoyed using GitHub. To do this I did the following;
+1. When on the websites GitHub repository, click on the settings tab
+2. Now on the settings page, on the left hand side of the page, click on the pages tab
+3. Under the Source section, click on the drop down menu titled Branch and select main
+4. The page is now published with a link available to use.
+
+(https://github.com/Kieran132/Quantum-Quiz-P2)
+
+### Creating a Fork or Copying
+To clone/fork/copy the repository you click on the fork tab which is situated next to unwatch tab in the top right corner of the page
+
+### Clone
+To create a clone you do the following;
+1. Click on the code tab, left of the Gitpod tab
+2. To the right of the repository name, click the clipboard icon
+3. In the IED open GitBash
+4. Change the working directory to the location you prefer
+5. Add Git Clone with the copy of the repositroy name
+6. Clone has been created
+
+## Credits
+
+### Content
+- The text throughout the website was taken from [Google Fonts](https://fonts.google.com/)
