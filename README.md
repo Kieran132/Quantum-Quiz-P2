@@ -92,8 +92,9 @@ To create a clone you do the following;
 
 ### Content
 - The text throughout the website was taken from [Google Fonts](https://fonts.google.com/)
-- The background image throughout the quiz was taken from [Pixels](https://www.pexels.com/)
+- The background image throughout the quiz and favicon image was taken from [Pixels](https://www.pexels.com/)
 - The questions for the quiz came from https://www.ncertbooks.guru/mcq-questions-on-universe/
+- For creation of the favicon, I used https://favicomatic.com/done
 
 ### Webpage Functionality and Media
 - Many issues were resolved using [W3School](https://www.w3schools.com/)
