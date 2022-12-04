@@ -93,7 +93,10 @@ To create a clone you do the following;
 ### Content
 - The text throughout the website was taken from [Google Fonts](https://fonts.google.com/)
 - The background image throughout the quiz was taken from [Pixels](https://www.pexels.com/)
+- The questions for the quiz came from https://www.ncertbooks.guru/mcq-questions-on-universe/
 
 ### Webpage Functionality and Media
 - Many issues were resolved using [W3School](https://www.w3schools.com/)
 - The understanding and guidance of how to write Javascript was guided by [CodingNepal](https://www.youtube.com/@CodingNepal). Without this help I would have struggled immensely but this youtube video clearly outlined how the code is written. 
+- My mentor Harry Dhillion also guided me with helpful resources
+- Code Institue tutor support offered help and guidance when I required it
