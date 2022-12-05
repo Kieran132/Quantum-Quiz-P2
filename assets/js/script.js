@@ -110,13 +110,13 @@ function showResults(){
     results.classList.add("activeResults");
     const score_info = results.querySelector(".score_text");
     if(userScore > 4){
-        let scoreMsg = '<span>Well Done, <p>' + storedUsername + '!</p>' + userScore + '</p>out of<p>' + questions.length + '</p></span>';
+        let scoreMsg = '<span>Well Done, <p>' + storedUsername + userScore + '</p>out of<p>' + questions.length + '</p></span>';
         score_info.innerHTML = scoreMsg;
     } else if (userScore > 2){
-        let scoreMsg = '<span>Not Bad, Not Good <p>' + userScore + '</p>out of<p>' + questions.length + '</p></span>';
+        let scoreMsg = '<span>Not Bad, Not Good <p>' + storedUsername + userScore + '</p>out of<p>' + questions.length + '</p></span>';
         score_info.innerHTML = scoreMsg;
     } else {
-        let scoreMsg = '<span>Back To School For You <p>' + storedUsername + '!</p>' + userScore + '</p>out of<p>' + questions.length + '</p></span>';
+        let scoreMsg = '<span>Back To School For You <p>' + storedUsername + userScore + '</p>out of<p>' + questions.length + '</p></span>';
         score_info.innerHTML = scoreMsg;
     }
 }
