@@ -359,7 +359,7 @@ body{
 @media screen and (max-width: 1200px) {
     .quiz{
         width: 50rem;
-        height: 630px;
+        height: 640px;
     }
 
     .results{
@@ -385,11 +385,12 @@ body{
 
     .info{
         width: 400px;
+        margin-left: 11px;
     }
 
     .quiz{
         width: 25rem;
-        height: 500px;
+        margin-left: 11px;
     }
 
     .quiz header .heading{
@@ -434,7 +435,7 @@ body{
     .info{
         width: 320px;
         justify-content: center;
-        left: 50%;
+        margin-left: 1px;
     }
 
     .info .rules{
@@ -442,9 +443,9 @@ body{
     }
 
     .quiz{
-        width: 23rem;
+        width: 22rem;
         height: 590px;
-        left: 50%;
+        margin-left: 1px;
     }
 
     .quiz header .heading{
