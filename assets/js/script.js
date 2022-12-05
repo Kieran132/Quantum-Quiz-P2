@@ -44,7 +44,6 @@ next_btn.onclick = () =>{
         showQuestions(que_count);
         questionCounter(que_number);
     } else {
-        console.log("Questions ended");
         showResults();
     }
 };
@@ -79,10 +78,8 @@ function optionSelected(answer){
         userScore += 1;
         console.log(userScore);
         answer.classList.add("correct");
-        console.log("correct");
     } else{
         answer.classList.add("incorrect");
-        console.log("incorrect");
 
         //Shows the user the correct answer if they choose incorrectly
         for(let i = 0; i < allOptions; i++){
