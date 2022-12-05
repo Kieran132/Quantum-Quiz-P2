@@ -39,7 +39,7 @@ let questions = [
         question: 'Which planet is known as the "Watery Planet" ?',
         answer: 'Earth',
         options:[
-            'Marcury',
+            'Mercury',
             'Earth',
             'Mars',
             'Jupiter'
@@ -111,4 +111,4 @@ let questions = [
             ' Black Hole'
         ]
     },
-]
+];

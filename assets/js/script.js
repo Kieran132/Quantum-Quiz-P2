@@ -76,7 +76,6 @@ function optionSelected(answer){
     let allOptions = option_area.children.length;
     if(userAnswer == correctAnswer){
         userScore += 1;
-        console.log(userScore);
         answer.classList.add("correct");
     } else{
         answer.classList.add("incorrect");

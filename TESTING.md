@@ -10,7 +10,7 @@ Passed
 
 ### Jshint Testing
 
-<img src="assets/README images/Jshint.png">
+<img src="assets/README images/jshint.png">
 
 The reason why questions is a undefined variable is because the questions for the quiz are in a seperate file (questions.js) than the one used to write the Javascript.
 
@@ -18,7 +18,7 @@ One item highlighted in this testing was 'optionSelected' being an unused variab
 
 ### Lighthouse Testing
 
-<img src="assets/README images/Lighthouse.png">
+<img src="assets/README images/lighthouse.png">
 
 ### Bugs
 
