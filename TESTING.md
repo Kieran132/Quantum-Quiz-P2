@@ -12,11 +12,17 @@ Passed
 
 ### Jshint Testing
 
+#### script.js
+
 <img src="assets/README images/jshint.png">
 
-The reason why questions is a undefined variable is because the questions for the quiz are in a seperate file (questions.js) than the one used to write the Javascript.
+The reason why questions is a undefined variable is because the questions for the quiz are in a seperate file (questions.js) than the one used to write the Javascript. One solution to this is Javascript Modules and pulling through the questions.js file into the script.js file.
 
-One item highlighted in this testing was 'optionSelected' being an unused variable. I had a look at re-writing the code of adding in an eventListener, however I have been unsuccessful due to my lack of Javascript knowledge.
+One item highlighted in this testing was 'optionSelected' being an unused variable. I had a look at re-writing the code of adding in an eventListener, however I have been unsuccessful due to my lack of Javascript knowledge. 
+
+#### questions.js
+
+Everything passed
 
 ### Lighthouse Testing
 
