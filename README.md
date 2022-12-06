@@ -2,7 +2,7 @@
 
 What is more fun than testing your knowledge on everything to do about the universe? This 10 question quiz will certainly do that. Quantum Quiz combines both an eye catching user friendly layout with easy and hard questions to get the mind thinking.
 
-<img src="assets/README images/responsive screen.png">
+<img src="assets/README images/responsive_screen.png">
 
 ## Live Site
 https://kieran132.github.io/Quantum-Quiz-P2/
