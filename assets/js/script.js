@@ -40,7 +40,7 @@ continue_btn.onclick = () => {
 next_btn.onclick = () =>{
     if(que_count < questions.length - 1){
         que_count++;
-         que_number++;
+        que_number++;
         showQuestions(que_count);
         questionCounter(que_number);
     } else {
