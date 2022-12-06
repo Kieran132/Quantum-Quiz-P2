@@ -265,7 +265,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 30px;
     color: rgb(166, 85, 227);
 }
 
@@ -481,5 +480,27 @@ body{
         font-size: 20px;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .home_page{
+        margin-left: 22px;
+    }
+
+    .info.activeInfo{
+        margin-left: 28px;
+    }
+
+    .quiz.activeQuiz{
+        margin-left: 25px;
+    }
+
+    .results.activeResults{
+        margin-left: 20px;
+    }
+
+    .quiz footer .next_btn{
+        margin-right: 10px;
     }
 }
