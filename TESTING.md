@@ -46,4 +46,28 @@ I sent the website to 5 people to test and see how they found playing the quiz. 
 
 - Start Button - The start button is linked to the instructions part of the quiz. The intention for this is when the start button is clicked then everything within in home_page div disappears and only part visible is the instructions page. Upon clicking on the start button, this is what happened.
 
-- 
+- Opacity change - For transitioning between the different parts of the quiz, function is called to "hide" or change the opacity of a div. This can be seen working from home page disappearing when clicking on the start button to the instruction page. The same can also be seen working from the instruction page to the quiz page.
+
+## Instruction Page Testing 
+
+- The instructin page is quite simple so just making sure everything was clear to read and the design all lined up with borders and spacing between points
+
+## Quiz Page Testing
+
+- Layout - Transitioning through the quiz, some of the questions are bigger than others so would push content down below it. Going through all the responsive features on Dev.tools, I could see and ammend any issues regarding this.
+
+- Selection of an answer - One main aspect of the quiz i wanted to incorporate was when an answer is selected the user cannot select another. This can be seen working when trying to quickly select another answer
+
+- Showing the user the correct answer - Once a user selects an answer, their choice will either show up green (being correct) or red. If it is red then the quiz will highlight the correct answer in green as well to show they user what is correct. This is seen working as when selecting the wrong answer, t shows up red but also the correct answer shows up in green.
+
+- Number of questions - On the left side of the footer it shows what number question the user is on and increments accordingly. This can be seen working and is corresponds with the question number.
+
+- Next button - When selecting the next button the quiz moves to the next questions. One area of improvement I would like to add is the requirement of the user having to select an answer before progressing.
+
+## Results Page Testing
+
+- Quotation - Depending on how many questions the user gets correct will depend on what funny message is presented. This can be seen working by different messages appearing in accordance with the score
+
+- Name obtained from local storage - On the home page the user saves their name to the local storage. This is then used as a personal aspect for the game and appears on the results page. This is shown by the name appearing here
+
+- End Game button - This button reloads the whole page to send the user back to the beginning. This is seen working by the page reloading upon the click of the button.
